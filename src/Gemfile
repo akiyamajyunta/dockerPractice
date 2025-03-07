@@ -1,0 +1,26 @@
+
+source 'https://rubygems.org/'
+
+git_source(:github){ 
+
+    |repo_name|
+
+    'https://github/#{repo_name}'
+}
+
+gem 'sinatra'
+
+#end
+
+
+
+puts "hello"
+#gem "rackup", "~> 2.2"
+#gem "puma", "~> 6.6"
+
+#gem 'rackup', '~> 2.2'
+#gem 'puma', '~> 6.6'
+#おいぃぃぃぃすどうもsyamuでぇぇぇす
+
+gem "rackup", "~> 2.2"
+gem "puma", "~> 6.6"

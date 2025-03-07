@@ -1,0 +1,48 @@
+current directory: /var/www/vendor/bundle~/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
+/usr/local/bin/ruby extconf.rb
+checking for pkg-config for openssl... [" ", "", "-lssl -lcrypto"]
+──── Using OpenSSL pkgconfig (openssl.pc) ────
+checking for openssl/bio.h... yes
+
+──── Below are yes for 1.0.2 & later ────
+checking for DTLS_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_session_cache_mode(NULL, 0) in openssl/ssl.h... yes
+
+──── Below are yes for 1.1.0 & later ────
+checking for TLS_server_method() in openssl/ssl.h... yes
+checking for SSL_CTX_set_min_proto_version(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.0 and later, but isn't documented until 3.0.0 ────
+checking for SSL_CTX_set_dh_auto(NULL, 0) in openssl/ssl.h... yes
+
+──── Below is yes for 1.1.1 & later ────
+checking for SSL_CTX_set_ciphersuites(NULL, "") in openssl/ssl.h... yes
+
+──── Below is yes for 3.0.0 & later ────
+checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
+
+checking for Random.bytes... yes
+creating Makefile
+
+current directory: /var/www/vendor/bundle~/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250307-282-zc2x3l sitelibdir\=./.gem.20250307-282-zc2x3l clean
+make: Warning: File 'Makefile' has modification time 0.03 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /var/www/vendor/bundle~/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250307-282-zc2x3l sitelibdir\=./.gem.20250307-282-zc2x3l
+make: Warning: File 'Makefile' has modification time 0.0056 s in the future
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /var/www/vendor/bundle~/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250307-282-zc2x3l sitelibdir\=./.gem.20250307-282-zc2x3l install
+make: Warning: File 'puma_http11.so' has modification time 0.053 s in the future
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250307-282-zc2x3l/puma
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /var/www/vendor/bundle~/ruby/3.4.0/gems/puma-6.6.0/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20250307-282-zc2x3l sitelibdir\=./.gem.20250307-282-zc2x3l clean
