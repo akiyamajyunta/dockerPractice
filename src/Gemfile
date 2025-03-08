@@ -15,12 +15,7 @@ gem 'sinatra'
 
 
 puts "hello"
-#gem "rackup", "~> 2.2"
-#gem "puma", "~> 6.6"
 
-#gem 'rackup', '~> 2.2'
-#gem 'puma', '~> 6.6'
-#おいぃぃぃぃす
 
 gem "rackup", "~> 2.2"
 gem "puma", "~> 6.6"

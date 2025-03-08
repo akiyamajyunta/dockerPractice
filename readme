@@ -1,0 +1,5 @@
+
+dockerbild  command  
+    docker image build -t sample/sinatra:latest . 
+docker run command 
+    docker container run -p 4567:4567 --name sinatra_container -v ${PWD}/src:/var/www sample/sinatra:latest
